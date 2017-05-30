@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 42px 30px;
+  background: #f2f6f3;
+  font-family: "Myriad Pro", Ubuntu, Tahoma, sans-serif;
+}
+
+.line{
+  border-bottom: 1px solid grey;
+  padding: 4px 0 3px;
+}
+
+.line:last-child {
+	border-bottom: 1px solid transparent;
+}
+
+h1{
+ font-size: 36px;
+ font-family: Arial;
+ text-align: center;
+}
+
+img{
+margin: 16px 146px 5px;
+border: 1px solid #8f8f8f;
+width: 200px;
+height: 200px;
+}
+
+p{
+  font-family: Arial;
+  font-size: 14px;
+}
+
+p,
+.fb{
+  padding: 10px 0 10px 0;
+  color: #3b3b3b;
+}
+
+span,
+ul,
+a {
+	padding: 10px 0 10px 34px;
+}
+
+ul{
+  color: #3b3b3b;
+}
+
+li{
+	padding: 1px 0 6px;
+}
+
+ul li,
+span{
+  font-size: 14px;
+}
+
+h3{
+  padding: 10px 0;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.tel{
+  color: #3b3b3b;
+  font-size: 14px;
+  font-style: normal;
+  padding: 10px 0 10px 34px;
+}
+
+a{
+  font-size: 14px;
+  font-style: italic;
+}
+
+span{
+  color: #3b3b3b;
+}
